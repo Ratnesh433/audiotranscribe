@@ -40,8 +40,7 @@ const upload = multer({
   }
 });
 
-const ASSEMBLYAI_API_KEY = 'eacbefa71a194902a6f226f53ab85e62';
-
+const ASSEMBLYAI_API_KEY = // Replace with your own API_Key
 // Serve static files from the public directory
 app.use(express.static('public'));
 // Serve files from uploads directory (for audio playback)
